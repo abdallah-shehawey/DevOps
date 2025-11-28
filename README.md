@@ -30,6 +30,7 @@ for learning and practicing **DevOps Engineering** concepts and tools.
 
 ## 📂 Repository Structure
 
+```
 DevOps/
 ├── linux/
 ├── shell-scripting/
@@ -40,6 +41,8 @@ DevOps/
 ├── cloud/
 ├── monitoring/
 └── notes/
+```
+
 
 ## 🚀 How to Use
 

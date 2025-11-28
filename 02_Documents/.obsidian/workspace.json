@@ -1,0 +1,218 @@
+{
+  "main": {
+    "id": "c53452ecc10114bc",
+    "type": "split",
+    "children": [
+      {
+        "id": "7e6c577b0192ab97",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7d57fd81153530d8",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "94865e16f28ee9ad",
+    "type": "split",
+    "children": [
+      {
+        "id": "b1797abe2fdd5cd1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c031aad0f8afab87",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "72e3f9fddaa25429",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#include",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "a77fbe430e6df020",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 267
+  },
+  "right": {
+    "id": "ed76e5e4fc49c5c9",
+    "type": "split",
+    "children": [
+      {
+        "id": "de35d174c4148e15",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "bf6ae687a44584f6",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Linux Adminstrtion/05. Linux Networking CLI.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for 05. Linux Networking CLI"
+            }
+          },
+          {
+            "id": "f98971c5aed5a22c",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Linux Adminstrtion/05. Linux Networking CLI.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from 05. Linux Networking CLI"
+            }
+          },
+          {
+            "id": "df95c7745635f87d",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "5a486405ba740d6f",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Yocto/Yocto Introduction.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Yocto Introduction"
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 488,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "7d57fd81153530d8",
+  "lastOpenFiles": [
+    "Linux Adminstrtion/02. Linux File System Essential.md",
+    "Yocto/Yocto Introduction.md",
+    "Code/poky/scripts/lib/wic/plugins/source/rootfs.py",
+    "Code/poky/scripts/lib/wic/plugins/source/rawcopy.py",
+    "Code/poky/scripts/lib/wic/plugins/source/isoimage-isohybrid.py",
+    "Code/poky/scripts/lib/wic/plugins/source/empty.py",
+    "Code/poky/scripts/lib/wic/plugins/source/bootimg-pcbios.py",
+    "Code/poky/scripts/lib/wic/plugins/source/bootimg-partition.py",
+    "Code/poky/scripts/lib/wic/plugins/source/bootimg-efi.py",
+    "Code/poky/scripts/lib/wic/plugins/source/bootimg-biosplusefi.py",
+    "Code/poky/scripts/lib/wic/plugins/imager/direct.py",
+    "Code/poky/scripts/pybootchartgui/pybootchartgui/tests/process_tree_test.py",
+    "Code/poky/meta/recipes-sato/rxvt-unicode/rxvt-unicode/rxvt.png",
+    "Code/poky/meta/recipes-sato/pcmanfm/files/gnome-mime-text-plain.png",
+    "Code/poky/meta/recipes-sato/pcmanfm/files/gnome-fs-regular.png",
+    "Code/poky/meta/recipes-sato/pcmanfm/files/gnome-fs-directory.png",
+    "Code/poky/meta/recipes-sato/pcmanfm/files/emblem-symbolic-link.png",
+    "Code/poky/meta/recipes-graphics/wayland/weston/weston.png",
+    "Code/poky/meta/recipes-devtools/perl-cross/files/README.md",
+    "Code/poky/meta/recipes-devtools/rust/README-rust.md",
+    "Code/poky/meta/recipes-core/psplash/files/psplash-poky-img.svg",
+    "Code/poky/meta/recipes-core/psplash/files/psplash-poky-img.png",
+    "Code/poky/meta/recipes-connectivity/connman/connman-gnome/images/connman-signal-05.png",
+    "Code/poky/meta/recipes-connectivity/connman/connman-gnome/images/connman-signal-04.png",
+    "Code/poky/meta/lib/patchtest/README.md",
+    "Code/poky/meta-yocto-bsp/README.hardware.md",
+    "Code/poky/meta-poky/README.poky.md",
+    "Code/poky/documentation/standards.md",
+    "Code/poky/bitbake/lib/toaster/toastergui/static/jquery-treetable-license/README.md",
+    "Code/poky/bitbake/SECURITY.md",
+    "Code/poky/SECURITY.md",
+    "Code/poky/README.qemu.md",
+    "Code/poky/README.OE-Core.md",
+    "Code/poky/MAINTAINERS.md",
+    "Linux Adminstrtion/MQTT on linux.md",
+    "Linux Adminstrtion/05.1 SSH.md",
+    "Linux Adminstrtion/05. Linux Networking CLI.md",
+    "Linux Adminstrtion/04. Intro to Networking.md",
+    "Linux Adminstrtion/03. Process Managment.md",
+    "Untitled.md",
+    "Linux Adminstrtion/01. Bash Scripting.md",
+    "Linux Adminstrtion/lecture 15.md",
+    "Linux Adminstrtion/04. Intro to Networking & Application Layer.md",
+    "Linux Adminstrtion/04. Networking fundamental/socket-examples/README.md",
+    "Linux Adminstrtion/2. Linux File System Essential.md",
+    "Untitled.canvas"
+  ]
+}
