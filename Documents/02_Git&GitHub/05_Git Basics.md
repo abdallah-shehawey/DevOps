@@ -3,6 +3,7 @@
 Welcome! This guide is a complete reference for **Git**, the distributed version control system. It covers everything from the absolute basics to advanced recovery techniques, designed for beginners, students, and professionals.
 
 > **Note:** This guide focuses purely on **Git** (the local tool), not GitHub/GitLab (hosting services).
+>
 ## 🧓 What is Git?
 
 Git is a **Distributed Version Control System (VCS)**. It is often humorously described by its creator as:
@@ -33,11 +34,10 @@ graph LR
 ```
 
 1. **Working Directory:** Where you currently edit files. (Status: _Modified_ or _Untracked_)
-    
+
 2. **Staging Area:** The "Waiting Room" for the next snapshot. (Status: _Staged_)
-    
+
 3. **Local Repository:** The database where history is stored. (Status: _Committed_)
-    
 
 ## 🚀 Basic Workflow
 
@@ -62,19 +62,18 @@ git commit -m "Message" # Save snapshot
 How to remove a file from the project properly:
 
 - **Method A: The Git Way (Recommended)**
-    
+
     ```bash
     git rm filename.txt   # Deletes file AND stages the deletion
     git commit -m "Deleted file"
     ```
-    
+
 - **Method B: The Manual Way** If you delete the file manually (Right-click -> Delete), Git sees it as a change. You must "add" the deletion:
-    
+
     ```bash
     git add filename.txt  # Stages the deletion
     git commit -m "Deleted file"
     ```
-    
 
 ## 🙈 Ignoring Files (.gitignore)
 
@@ -192,13 +191,12 @@ git branch -D <name>       # Force delete branch
 ### Switching & Checkout (The Nuance)
 
 - **`git checkout <id>`**: Moves to specific commit -> **"Detached HEAD"**.
-    
+
 - **`git switch <name>`**: Switches to a branch.
-    
+
 - **`git switch -c <name>`**: Creates AND switches to a new branch.
-    
+
 - **`git checkout -`**: Jumps to the previous branch (Like Alt+Tab).
-    
 
 ### Merging & Strategies
 
@@ -212,9 +210,8 @@ git merge dev
 **Merge Types:**
 
 1. **Fast-Forward:** Linear history (no fork).
-    
+
 2. **Non-Fast-Forward (ORT/Recursive):** Creates a **Merge Commit**.
-    
 
 ## 📦 Stashing (The "Pause" Button)
 
@@ -289,7 +286,6 @@ git rebase main
 ```
 
 - **Warning:** Commits get new IDs. Never rebase public/shared branches!
-    
 
 ## 🚑 Emergency Recovery (Reflog)
 
@@ -300,24 +296,23 @@ git rebase main
 You did `git reset --hard` and lost code.
 
 1. `git reflog` -> Find the ID (SHA) of the commit before the reset.
-    
+
 2. `git reset --hard <commit-id>`
-    
 
 ### Scenario 2: Recovering a Deleted Branch
 
 You deleted `feature-x` but want it back.
 
 1. `git reflog` -> Find the ID of the last commit on that branch.
-    
+
 2. **Method A (Direct):**
-    
+
     ```bash
     git branch feature-x <commit-id>
     ```
-    
+
 3. **Method B (Checkout & Switch):**
-    
+
     ```bash
     git checkout <commit-id>
     git switch -c feature-x
